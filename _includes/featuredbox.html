@@ -18,13 +18,10 @@
             </div>
             <div class="col-12 col-md-12 col-lg-7">
                 <div class="h-100 card-group">
-<!-- ------ hyperlinkl starts-->
-<a href="{{ post.url | absolute_url }}">
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <!-- <a class="text-dark" href="{{ post.url | absolute_url }}">{{ post.title }}</a> -->
-                          <a class="text-dark">{{ post.title }}</a>
+                                <a class="text-dark" href="{{ post.url | absolute_url }}">{{ post.title }}</a>
                                 {% if post.rating %}
                                 <div class="mb-2 mt-2 font-weight-normal">
                                 {% include star_rating_postbox.html %}
@@ -49,15 +46,7 @@
                                 <div class="clearfix"></div>
                             </div>
                         </div>
-                        <!-- ----circle -->
-                        <div class="service__bubble service__bubble--blue"></div>
-                        			<div class="service__ripple"></div>
-                        			<div class="service__icon material-icons">arrow_forward</div>
-
-                        <!-- ---- -->
                     </div>
-                    </a>
-                    <!-- ---- hyper link ends-->
                 </div>
             </div>
         </div>
