@@ -18,6 +18,8 @@
             </div>
             <div class="col-12 col-md-12 col-lg-7">
                 <div class="h-100 card-group">
+<!-- ------ hyperlinkl starts-->
+<a class="text-dark" href="{{ post.url | absolute_url }}">
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
@@ -28,7 +30,7 @@
                                 </div>
                                 {% endif %}
                             </h2>
-                            
+
                             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
                         </div>
                         <div class="card-footer b-0 bg-white mt-auto">
@@ -46,7 +48,15 @@
                                 <div class="clearfix"></div>
                             </div>
                         </div>
+                        <!-- ----circle -->
+                        <div class="service__bubble service__bubble--blue"></div>
+                        			<div class="service__ripple"></div>
+                        			<div class="service__icon material-icons">arrow_forward</div>
+
+                        <!-- ---- -->
                     </div>
+                    </a>
+                    <!-- ---- hyper link ends-->
                 </div>
             </div>
         </div>
