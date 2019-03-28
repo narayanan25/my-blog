@@ -7,7 +7,9 @@ License: https://www.wowthemes.net/freebies-license/
 
 
 /* Hover animations */
-
+.text-dark: hover{
+  color: black;
+}
 .card:hover{
   background: black;
   color: white;
@@ -22,6 +24,10 @@ License: https://www.wowthemes.net/freebies-license/
 .listfeaturedtag:hover h2{
 color: white !important;
 }
+
+.listfeaturedtag:hover h4.card-text, .listrecent h4.card-text {
+    color: white;
+    }
 
 /* end of hover */
 
