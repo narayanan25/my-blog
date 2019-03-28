@@ -20,7 +20,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 .listfeaturedtag:hover h2{
-color: white;
+color: white !important;
 }
 
 /* end of hover */
