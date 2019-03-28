@@ -94,7 +94,7 @@ h3 {
     height:8.5%;
     position: fixed;
     width: 100%;
-
+    z-index: 1;
   list-style-type: none;
 
   overflow: hidden;
