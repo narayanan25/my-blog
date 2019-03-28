@@ -6,7 +6,23 @@ License: https://www.wowthemes.net/freebies-license/
 
 
 
+/* Hover animations */
 
+.card:hover{
+
+
+}
+
+.listfeaturedtag:hover{
+  background: black;
+  color: white;
+}
+
+.listfeaturedtag:hover h2{
+color: white;
+}
+
+/* end of hover */
 
 
 
