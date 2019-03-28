@@ -10,13 +10,9 @@ License: https://www.wowthemes.net/freebies-license/
 .text-dark: hover{
   color: black;
 }
-.card:hover{
-  background: black;
-  color: white;
 
-}
 
-.listfeaturedtag:hover{
+.listfeaturedtag:hover .card:hover{
   background: black;
   color: white;
 }
