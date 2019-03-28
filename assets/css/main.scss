@@ -2,6 +2,25 @@
 # Add a comment to make this file sass-y.
 # Change this file for any custom CSS.
 ---
+/* Hover animations */
+
+.card:hover{
+  background: black;
+  color: white;
+
+}
+
+.listfeaturedtag:hover{
+  background: black;
+  color: white;
+}
+
+.listfeaturedtag:hover h2{
+color: white !important;
+}
+
+/* end of hover */
+
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
